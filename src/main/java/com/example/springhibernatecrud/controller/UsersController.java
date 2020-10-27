@@ -38,8 +38,8 @@ public class UsersController {
         userService.removeByID(id);
     }
 
-    @PutMapping("/{id}")
-    public User updateUser(@RequestBody User user, @PathVariable int id) {
-        return usersReposytory.updateUser(user, id);
-    }
+//    @PutMapping("/{id}")
+//    public User updateUser(@RequestBody User user, @PathVariable int id) {
+//        return usersReposytory.updateUser(user, id);
+//    }
 }
